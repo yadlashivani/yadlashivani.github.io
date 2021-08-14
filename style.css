@@ -885,12 +885,13 @@ border: 10px solid white;
 
 
 
+
 /* projects styling */
 #projects {
   background-color: black;
   box-sizing: border-box;
   display: grid;
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .project .title::after {
@@ -899,7 +900,7 @@ border: 10px solid white;
 }
 
 .container1 {
-  padding: 0 180px;
+  padding: 0 150px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -925,7 +926,7 @@ border: 10px solid white;
 }
 
 .card .img img {
-  height: 120%;
+  height: 100%;
   width: 100%;
   object-fit: cover;
 }
@@ -937,9 +938,7 @@ border: 10px solid white;
 .card .top-text .name {
   font-size: 25px;
   font-weight: 600;
-  color: crimson;
-   text-align:center;
-    margin-top:37px;
+  color: #202020;
 }
 
 .card .top-text p {
@@ -986,27 +985,17 @@ border: 10px solid white;
   transform: scale(0.9);
 }
 
-@media screen and (max-width: 500px) {
-  .card .top-text .name {
-    font-size: 20px;
-    font-weight: 300;
-    color: crimson;
-     text-align:center;
-      margin-top:37px;
-  }
-}
+
 @media screen and (max-width: 978px) {
   .container {
     flex-wrap: wrap;
     flex-direction: column;
   }
 
-
-
- .card {
+  .card {
     max-width: 600px;
     margin: 20px 0;
-    margin-bottom: 170px;
+    margin-bottom: 110px;
   }
 }
 .container8 {
