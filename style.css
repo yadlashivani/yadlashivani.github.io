@@ -1001,6 +1001,12 @@ border: 10px solid white;
     flex-wrap: wrap;
     flex-direction: column;
   }
+   .card {
+    max-width: 600px;
+    margin: 20px 0;
+    margin-bottom: 170px;
+  }
+
 }
 
 
